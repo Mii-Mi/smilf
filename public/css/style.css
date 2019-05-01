@@ -1,0 +1,634 @@
+@font-face {
+    font-family: 'indie_flowerregular';
+    src: url('../fonts/IndieFlower-webfont.eot');
+    src: url('../fonts/IndieFlower-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/IndieFlower-webfont.woff2') format('woff2'),
+         url('../fonts/IndieFlower-webfont.woff') format('woff'),
+         url('../fonts/IndieFlower-webfont.ttf') format('truetype'),
+         url('../fonts/IndieFlower-webfont.svg#indie_flowerregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body
+{
+	background:url("../images/enchanted_forest-wide.jpg") fixed repeat;
+	background-size: cover;
+	height:auto;
+	word-wrap: break-word;
+}
+
+section
+{
+	margin:auto;
+	height:100%;
+}
+
+h1
+{
+
+	background-color: #0B2F3A;
+	font-family: 'indie_flowerregular', Georgia, Verdana, C059, serif;
+	color:#FF8000;
+	font-size:4em;
+	font-weight:bold;
+	text-align:center;
+	text-shadow:3px 3px 2px #FAAC58;
+}
+
+h2
+{
+	background-color: #0B2F3A;
+	font-family: 'indie_flowerregular', Georgia, Verdana, C059, serif;
+	color: #FF8000;
+	font-size: 2.5em;
+	font-weight:bold;
+	text-align:center;
+	text-shadow:2px 2px 1px #FAAC58;
+}
+
+h3
+{
+	background-color: #0B2F3A;
+	font-family: 'indie_flowerregular';
+	color:#FF8000;
+	font-size: 1.7em;
+	font-weight:bold;
+	text-align:center;
+	padding:0 12px;
+}
+
+h4
+{
+	background-color: #0B2F3A;
+	font-family: Georgia, verdana, C059, serif;
+	color: #E2CDB2;
+	font-size: 1.7em;
+	font-weight:bold;
+	text-align:center;
+	padding:0 12px;
+}
+h5
+{
+	background-color: #0B2F3A;
+	font-family: 'indie_flowerregular';
+	color:#FF8000;
+	font-size: 1.4em;
+	font-weight:bold;
+	text-align:center;
+	padding:0 12px;
+}
+h1, h2, h3, h4, h5
+{
+	border:2px yellow outset;
+	border-radius:10px;
+	box-shadow:6px 6px 2px #5E610B;
+}
+p
+{
+	background-color: #0B3B39;
+	font-family: Georgia, verdana, C059, serif;
+	color: #E2CDB2;
+	font-size: 1.3em;
+	padding: 0 12px;
+	text-align:justify;
+	word-wrap: break-word;
+}
+
+a
+{
+	color: #2EFE9A;
+	text-decoration:underline;
+	word-wrap: break-word;
+}
+
+a:hover
+{
+	text-decoration:none;
+	text-shadow:2px 2px 2px #A9F5D0;
+}
+
+a:active
+{
+	text-decoration:none;
+	text-shadow:3px 3px 3px #a9f5d0;
+	color:#a9f5d0;
+}
+
+strong
+{
+	color:#FA5858;
+	font-weight:bold;
+}
+
+em
+{
+	color: #9FF781;
+	text-decoration:italic;
+}
+
+form p
+{
+	text-align: left;
+}
+
+.formbloc
+{
+	background-color:rgba(11,59,57,0.7);
+	border:2px yellow outset;
+	border-radius:10px;
+	box-shadow:6px 6px 2px #5E610B;
+	height:100%;
+}
+
+input, .select, optgroup
+{
+	max-width: 93%;
+	background-color: #2e2e2e;
+	border: #0b3b39 solid 2px;
+	border-radius: 5px;
+	color: #E2CDB2;
+	font-family: Georgia, verdana, C059, serif;
+	font-size: .9em;
+}
+
+textarea
+{
+	background-color: #2e2e2e;
+	border: #0b3b39 solid 2px;
+	border-radius: 5px;
+	max-width: 94%;
+	margin-left: 3%;
+	font-family: Georgia, verdana, C059, serif;
+	font-size: .9em;
+	color: #E2CDB2;
+}
+input text
+{
+	font-family: Georgia, verdana, C059, serif;
+	font-size: .9em;
+}
+.submit
+{
+	padding: 5px 10px 0 10px;
+}
+.submit:hover
+{
+	color: #2EFE9A;
+	text-shadow:2px 2px 2px #A9F5D0;
+}
+
+.center
+{
+	text-align:center;
+}
+
+@keyframes masuperanimation 
+{
+    0% {
+        transform: rotate(0px);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+.smilf_big
+{
+	text-align:center;
+	background-color:rgba(11,59,57,0.5); 
+	border:2px yellow outset;
+	border-radius:10px;
+	box-shadow:6px 6px 2px #5E610B;
+	height:100%;
+	margin:auto;
+}
+
+.rotateSmilf:hover
+{
+    animation: masuperanimation 2s;
+}
+
+.smilf_small
+{
+	display:none;
+}
+
+.logo
+{
+	background-color:rgba(11,59,57,0.5);
+	border:none;
+	border-radius: 10px;
+}
+
+ul
+{
+	color:#E2CDB2;
+	background-color:#0b3b39;
+}
+
+li
+{
+	list-style-image:url("../images/smilf_puce.png");
+}
+
+.lidec
+{
+	margin:7px 50px;
+}
+
+.bloc
+{
+	background-color:#0b3b39;
+	border:2px yellow outset;
+	border-radius:10px;
+	box-shadow:6px 6px 2px #5E610B;
+	height:100%;
+}
+.bloc h2
+{
+	font-size: 1.7em;
+}
+
+.shoutbox
+{
+	background-color:#0b3b39;
+	border:2px yellow outset;
+	border-radius:10px;
+	box-shadow:6px 6px 2px #5E610B;
+	height: 600px;
+	width: 99.8%;
+	margin-bottom: 15px;
+}
+
+figure
+{
+	color:#9ff781;
+}
+
+figure:hover
+{
+	text-shadow:2px 2px 2px #a9f5d0;
+}
+.cont1torlist
+{
+	display:flex;
+}
+.cont1torlist .logo
+{
+	flex: 3;
+	min-height: 150px;
+}
+.cont1torlist .formbloc
+{
+	margin-top: 20px;
+}
+.cont2torlist, .cont2tor
+{
+	display:flex;
+	margin: 15px 0;
+}
+
+.el21torlist, .el21tor
+{
+	flex:1;
+	margin-right:10px;
+	min-height: 470px;
+}
+.el21torlist img
+{
+	max-height: 180px;
+}
+.el21tor img
+{
+	max-width: 600px;
+	max-height: 700px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.torSynopsis img
+{
+	display: none;
+}
+.torFree img, .torFree div img
+{
+	max-width: 700px;
+	max-height: 210px;
+}
+.el22tor
+{
+	height: auto;
+}
+
+.cont2torlist aside h5
+{
+	text-shadow:none;
+	font-size:1.7em;
+	margin-top:28px;
+}
+
+.cont2torlist aside h5
+{
+	text-shadow:none;
+	padding-top:3px;
+	font-size:1.4em;
+	margin: 5px 0 10px 0;
+}
+
+.cont2torlist aside
+{
+	width:290px;
+	margin-bottom:4px;
+}
+.el22tor
+{
+	width: 290px;
+}
+.cont2torlist aside ul
+{
+	margin: 0 0 10px 0;
+}
+.cont3torlist
+{
+	display: flex;
+	flex-wrap: wrap;
+}
+.el31tor p
+{
+	text-align: center;
+}
+.boutonSpoiler
+{
+	font-family: Georgia, verdana, C059, serif;
+	color: #9FF781;
+	background-color: #0B2F3A;
+	font-size: 1.2 em;
+	text-align:center;
+	padding: 7px 0;
+	width: 100%;
+	margin-left: 4%;
+	margin-bottom: 15px;;
+	border-radius: 10px;
+	border: outset 1px yellow;
+}
+
+.boutonSpoiler:hover
+{
+	text-shadow:2px 2px 2px #A9F5D0;
+
+}
+
+.cont1main
+{
+	display:flex;
+	flex-wrap: nowrap;
+	align-items:stretch;
+	height:750px;
+	margin:auto;
+}
+
+.el2main
+{
+	order:1;
+	width:15%;
+	min-width:150px;
+	background-color:rgba(11,59,57,0.5);
+}
+
+.el1main
+{
+	order:2;
+	flex:1;
+	margin:0 15px;
+}
+
+.logoTitre
+{
+	display: none;
+}
+
+.el3main
+{
+	order:3;
+	width:15%;
+	min-width:150px;
+	background-color:rgba(11,59,57,0.5);
+	max-height:100%;
+}
+
+.el3main p
+{
+	margin:auto;
+	margin-top: 10px;
+	padding: 2px,2px;
+	align-self: flex-end;
+	height: auto;
+	width: auto;
+	max-height: 79%;
+	max-width: 100%;
+	text-align: left;
+	overflow: auto;
+}
+
+.el3main div
+{
+	height: auto;
+	width: auto;
+	max-width: 100%;
+	max-height: 35%;
+	overflow: auto;
+	margin: auto;
+}
+
+.el3main div textarea
+{
+	width: 97%;
+}
+
+.el3main div input
+{
+	width: auto;
+	max-width: 90%;
+}
+
+.cont1main h2
+{
+	font-size:1.7em;
+	text-shadow:none;
+	background-color:rgba(11,59,57,0.5);
+}
+
+.cont1main ul,p
+{
+	background-color:rgba(11,59,57,0);
+}
+
+#footMainCont
+{
+	display: flex;
+	justify-content: space-between;
+}
+#lisere
+{
+	background-color:#0b3b39;
+	opacity:0.6;
+	width:10%;
+	border-radius:10px;
+	margin-right:15px;
+	order:1;
+}
+.contStatusTitle
+{
+	display: flex;
+	height: 75px;
+}
+.contStatusTitle h3
+{
+	margin-bottom: 0;
+	flex: 1;
+	box-shadow: none;
+}
+.postsListContent
+{
+	margin: 2px 0 0 0;
+}
+.cont1com
+{
+	display:flex;
+}
+
+.el1com
+{
+	order:2;
+	flex:1;
+	margin: auto;
+	max-width: 85%;
+}
+.el1com img
+{
+	max-width: 100%;
+}
+
+#corps
+{
+	order:2;
+	display:flex;
+	flex-direction:column;
+}
+.datePub
+{
+	text-align: right;
+	font-size: 1.2em;
+}
+
+.contPagin
+{
+	display: flex;
+	flex-wrap: wrap;
+}
+.formPage .selection
+{
+	width: 50px;
+	height: 97%;
+	border: none;
+	border-radius: 0;
+	background-color:#0b3b39;
+	border-bottom:2px yellow outset;
+	font-family: Georgia, verdana, C059, serif;
+	color: #E2CDB2;
+	font-size: 1.3em;
+}
+
+@media all and (max-width: 1024px)
+{
+	.cont1main
+	{
+		flex-direction:column;
+		height: auto;
+	}
+
+	.smilf_big
+	{
+		display:none;
+	}
+
+	.logoTitre
+	{
+		display: block;
+	}
+
+	.el1main, .el2main, .el3main
+	{
+		width:auto;
+		height: auto;
+		margin: 5px 0;
+	}
+
+	.el3main div
+	{
+		height: 100%;
+		min-height: 100%;
+	}
+
+	h1
+	{
+		font-size:3em;
+	}
+
+
+	section h1
+	{
+		display: none;
+	}
+	.cont1torlist
+	{
+		display: block;
+	}
+	.cont2tor
+	{
+		display: block;
+	}
+	.el22tor
+	{
+		width:100%;
+		margin-top:10px;
+	}
+	.cont2torlist aside
+	{
+		display: none;
+	}
+
+	.el21torlist, .el21tor
+	{
+		max-width: 100%;
+		margin:auto;
+	}
+	.cont3tor img, .cont3torlist img, .torFree img, .torFree a img, .torFree div img, .torFree div a img
+	{
+		max-width: 95%;
+	}
+	#lisere
+	{
+		display:none;
+	}
+	.contPagin
+	{
+		justify-content: center;
+		margin: auto;
+	}
+	.el1Pagin
+	{
+		order: 5;
+	}
+	.formPage
+	{
+		order: 4;
+		margin: auto;
+	}
+
+	.formPage .selection
+	{
+		border: none;
+		margin: auto;
+	}
+}
