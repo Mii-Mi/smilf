@@ -36,18 +36,8 @@ ob_start() ?>
 <section>
 	<h1>Bienvenue chez Smilf !</h1>
 
-	<div class="spoiler"><br /> <!-- js/spoiler.js -->
-	<input class="boutonSpoiler" onclick="showSpoiler(this);" type="button" value="Voir-Cacher la shoutbox" /> 
-		<div class="inner" style="display: none">
-		<iframe class="shoutbox" name="shoutbox" src="https://chat.smilf.cf/channel/Shoutbox"></iframe>
-		</div>
-	</div>
-
-	<div class="bloc"><p>Site en construction <br />
-	Contenu bientôt disponible</p>
-
-	<p><strong>Patience...</strong></p>
-
+	<div class="bloc">
+	<p>Inscrivez-vous pour bénéficier des fonctionnalités de partage !</p>
 	</div>
 </section>
 
